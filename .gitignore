@@ -1,0 +1,23 @@
+# Ignore executable build files
+*.exe
+
+# Ignore local module cache or vendor folder
+/vendor/
+/bin/
+/build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor/project settings
+.vscode/
+.idea/
+
+# Ignore Go test cache & build artifacts
+*.test
+*.out
+
+# Ignore dependency sum file (optional)
+go.sum
