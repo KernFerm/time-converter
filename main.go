@@ -52,7 +52,6 @@ func convertTime(input, from, to string) string {
 
 func main() {
 	_ = loadTimezones("timezones.json")
-
 	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Println("🌐 Bubbles Timezone Converter")
@@ -60,31 +59,35 @@ func main() {
 	fmt.Println("💡 Type 'q' at any prompt to quit")
 	fmt.Println("────────────────────────────────────────────")
 
+mainloop:
 	for {
 		fmt.Print("\n⏰ Enter time (HH:MM AM/PM): ")
 		inputTime, _ := reader.ReadString('\n')
 		inputTime = strings.TrimSpace(inputTime)
-		if strings.ToLower(inputTime) == "q" {
-			break
+		if strings.EqualFold(inputTime, "q") {
+			break mainloop
 		}
 
 		fmt.Print("🌍 Enter source timezone (e.g., America/New_York): ")
 		fromZone, _ := reader.ReadString('\n')
 		fromZone = strings.TrimSpace(fromZone)
-		if strings.ToLower(fromZone) == "q" {
-			break
+		if strings.EqualFold(fromZone, "q") {
+			break mainloop
 		}
 
 		fmt.Print("🌎 Enter target timezone (e.g., Europe/London): ")
 		toZone, _ := reader.ReadString('\n')
 		toZone = strings.TrimSpace(toZone)
-		if strings.ToLower(toZone) == "q" {
-			break
+		if strings.EqualFold(toZone, "q") {
+			break mainloop
 		}
 
 		result := convertTime(inputTime, fromZone, toZone)
 		fmt.Println(result)
+		fmt.Println("────────────────────────────────────────────")
 	}
 
 	fmt.Println("\n👋 Thanks for using Bubbles Timezone Converter! Goodbye!")
+	fmt.Println("🫧 Press ENTER to close...")
+	fmt.Scanln() // Keeps window open if double-clicked
 }
