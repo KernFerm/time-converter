@@ -53,7 +53,7 @@ time-converter.exe
 - Time: `01:30 PM` or `09:45 am`
 - Timezone: `America/New_York`, `Asia/Tokyo`, `Europe/London`, `UTC`, etc.
 
-- ✅ Uses IANA timezones. If you're unsure of a timezone format, check timezones.json or search online.
+- ✅ Uses IANA timezones. If you're unsure of a timezone format, check `timezones.json` or `search online`.
 
 ## 🧪 Build from Source (Dev Use)
 If you'd rather build it yourself:
