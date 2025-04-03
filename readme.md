@@ -17,7 +17,7 @@ Welcome to the **Bubbles Timezone Converter**, a fun, fast, and simple command-l
 ## 🚀 How to Use
 
 - Make sure to Have ` Go ` installed 
-- [CLick To Download](https://go.dev/dl/)
+- [Click To Download](https://go.dev/dl/)
 
 ### 💻 1. Open PowerShell or Command Prompt
 Navigate into the folder where you have the converter:
