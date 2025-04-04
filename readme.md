@@ -85,6 +85,9 @@ go build -o time-converter.exe
 👋 Thanks for using Bubbles Timezone Converter! Goodbye!
 ```
 
+## Time-Converter EXE
+[Click To Download](https://github.com/KernFerm/time-converter/releases/tag/time_converter.exe)
+
 # 💖 Created By
 - Bubbles The Dev
 - 🌐 [fnbubbles420.org](https://fnbubbles420.org/)
