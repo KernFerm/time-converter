@@ -32,10 +32,13 @@ cd path\to\time-converter
 cd C:\Users\YourName\Desktop\time-converter
 ```
 
-## 🟢 2. Run the App
+## 🟢 2. Run the App or Script
 
 ```
-time-converter.exe
+./time-converter.exe
+```
+```
+go run main.go
 ```
 
 - You will be prompted like this:
