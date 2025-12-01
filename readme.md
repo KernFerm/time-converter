@@ -94,9 +94,13 @@ go build -o time-converter.exe
 # 💖 Created By
 - Bubbles The Dev
 - 🌐 [fnbubbles420.org](https://fnbubbles420.org/)
-- [https://discord.gg/FxJd3PxXbc](https://discord.gg/FxJd3PxXbc)
+# Join the discord if you need help 
+
+[https://fnbubbles420.org/discordinvite](https://fnbubbles420.org/discordinvite)
+
 
 Making the world more accessible, one time conversion at a time 💫
+
 
 
 
